@@ -15,6 +15,7 @@ In the previous step, we exported a TFServe ready model that can easily bind to 
 
 - Static model, you cannot change the model inside the container
 - Small memory overhead
+- high inference time
 
 
 
@@ -57,6 +58,12 @@ def predict(text):
     resp = requests.post(model_server_url, json=json_data)
     return resp.json()
 ```
+
+```python
+predict('Stocks That Hit 52-Week Highs On Friday')
+```
+
+{'predictions': [[0.8485747159]]}
 
 ## Final result
 
