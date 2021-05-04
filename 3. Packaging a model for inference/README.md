@@ -47,7 +47,7 @@ Just a raw string and a URL and you have the results!
 ```python
 import requests
 
-model_server_url = "http://stocksentimentanalysis.azurewebsites.net:8501/v1/models/stock_sentiment:predict"
+model_server_url = "http://localhost:8501/v1/models/stock_sentiment:predict"
 
 def predict(text):
     json_data = {
