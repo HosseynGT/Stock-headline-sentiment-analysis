@@ -42,20 +42,6 @@ Now we have labels for each row that indicate a stock value will be raised or no
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -116,16 +102,13 @@ Now we have labels for each row that indicate a stock value will be raised or no
     </tr>
   </tbody>
 </table>
-</div>
-
-
-
 
     Number of rows in original dataset: 1407328
     Number of rows in labeled dataset: 1052624
-    
+
 
 
     count of 0 values in labeled dataset: 530381
     count of 1 values in labeled dataset: 522243
-    
+    not a skewed class problem
+
